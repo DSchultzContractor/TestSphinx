@@ -4,7 +4,7 @@ on: pull_request
   branches:
       - master
   paths: test.md
-  type: closed
+  types: closed
 
 jobs:
   job1:

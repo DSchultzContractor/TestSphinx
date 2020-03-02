@@ -5,7 +5,7 @@ on:
     branches:
     - master
     paths: 
-    - 'test.md'
+    - 'test/test.md'
 
 jobs:
   job1:

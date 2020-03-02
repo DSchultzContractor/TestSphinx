@@ -1,8 +1,8 @@
 name: TestPR
 
 on: pull_request
-    paths: 'test.md'
-    type: [closed]
+  paths: test.md
+  type: [closed]
 
 jobs:
   job1:

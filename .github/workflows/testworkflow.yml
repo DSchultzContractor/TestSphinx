@@ -11,4 +11,4 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-      run: echo This event is a pull request that had an assignee removed.
+    - run: echo This event is a pull request that had an assignee removed.

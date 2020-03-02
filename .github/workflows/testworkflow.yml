@@ -1,11 +1,12 @@
 name: TestPR
 
-on: pull_request
-  branches:
-  - master
-  paths: 
-  - 'test.md'
-  types: closed
+on: 
+  pull_request:
+    branches:
+    - master
+    paths: 
+    - 'test.md'
+    types: closed
 
 jobs:
   job1:
